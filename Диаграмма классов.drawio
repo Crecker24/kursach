@@ -35,7 +35,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="42NEouA7tREXoh2gYR_q-13" value="Ресторан" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=140;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1048" y="280" width="320" height="380" as="geometry" />
+          <mxGeometry x="1048" y="280" width="320" height="350" as="geometry" />
         </mxCell>
         <mxCell id="42NEouA7tREXoh2gYR_q-68" value="- База данных&amp;nbsp;: БД Ресторана[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="42NEouA7tREXoh2gYR_q-13" vertex="1">
           <mxGeometry y="140" width="320" height="30" as="geometry" />
@@ -61,26 +61,23 @@
         <mxCell id="42NEouA7tREXoh2gYR_q-7" value="- Отправить данные о свободных и занятых столах&amp;nbsp;: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="42NEouA7tREXoh2gYR_q-13" vertex="1">
           <mxGeometry y="290" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="42NEouA7tREXoh2gYR_q-40" value="-Отправить планировку&amp;nbsp;: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="42NEouA7tREXoh2gYR_q-13" vertex="1">
+        <mxCell id="42NEouA7tREXoh2gYR_q-30" value="+ Выдать чек : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="42NEouA7tREXoh2gYR_q-13" vertex="1">
           <mxGeometry y="320" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="42NEouA7tREXoh2gYR_q-30" value="+ Выдать чек : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="42NEouA7tREXoh2gYR_q-13" vertex="1">
-          <mxGeometry y="350" width="320" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="42NEouA7tREXoh2gYR_q-17" value="Платёжная система" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=130;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="760" width="250" height="270" as="geometry" />
+          <mxGeometry x="388" y="760" width="250" height="270" as="geometry" />
         </mxCell>
         <mxCell id="42NEouA7tREXoh2gYR_q-18" value="+ Способы оплаты:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="42NEouA7tREXoh2gYR_q-17" vertex="1">
           <mxGeometry y="130" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="42NEouA7tREXoh2gYR_q-66" value="+ Уведомление об успешной оплате&amp;nbsp;: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="42NEouA7tREXoh2gYR_q-17" vertex="1">
-          <mxGeometry y="160" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5DtDGlq0laJ35dSMNrl4-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.995;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.009;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" parent="42NEouA7tREXoh2gYR_q-17" target="42NEouA7tREXoh2gYR_q-19" edge="1">
+        <mxCell id="5DtDGlq0laJ35dSMNrl4-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.992;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" parent="42NEouA7tREXoh2gYR_q-17" target="42NEouA7tREXoh2gYR_q-18" edge="1" source="42NEouA7tREXoh2gYR_q-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2" y="190" as="sourcePoint" />
             <mxPoint x="239" y="190" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="42NEouA7tREXoh2gYR_q-66" value="+ Уведомление об успешной оплате&amp;nbsp;: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="42NEouA7tREXoh2gYR_q-17" vertex="1">
+          <mxGeometry y="160" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="42NEouA7tREXoh2gYR_q-19" value="- Проверка реквизитов&amp;nbsp;: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="42NEouA7tREXoh2gYR_q-17" vertex="1">
           <mxGeometry y="190" width="250" height="30" as="geometry" />
@@ -159,7 +156,7 @@
             <mxPoint x="1540" y="540" as="sourcePoint" />
             <mxPoint x="1700" y="540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1420" y="370" />
+              <mxPoint x="1420" y="365" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -187,7 +184,7 @@
             <mxPoint x="790" y="710" as="sourcePoint" />
             <mxPoint x="950" y="710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="970" y="375" />
+              <mxPoint x="973" y="368" />
               <mxPoint x="970" y="720" />
               <mxPoint x="578" y="720" />
             </Array>
@@ -207,7 +204,7 @@
             <mxPoint x="1040" y="850" as="sourcePoint" />
             <mxPoint x="1200" y="850" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1020" y="645" />
+              <mxPoint x="1022" y="615" />
               <mxPoint x="1022" y="721" />
               <mxPoint x="1025" y="796" />
               <mxPoint x="700" y="793" />
@@ -223,7 +220,7 @@
               <mxPoint x="650" y="935" />
               <mxPoint x="650" y="740" />
               <mxPoint x="980" y="740" />
-              <mxPoint x="980" y="396" />
+              <mxPoint x="980" y="387" />
             </Array>
           </mxGeometry>
         </mxCell>
